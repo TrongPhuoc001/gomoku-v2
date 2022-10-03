@@ -1,0 +1,12 @@
+.form-field {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-field input {
+  width: 30px;
+}
+
+.size-field {
+  margin: 0 0 10px 0;
+}

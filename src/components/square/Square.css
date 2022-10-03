@@ -1,0 +1,41 @@
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+  cursor: pointer;
+}
+
+.square:focus {
+  outline: none;
+}
+.bold {
+  color: white;
+  font-weight: 700;
+  background: #ccc;
+}
+
+.square-hover {
+  display: none;
+  opacity: 0.5;
+}
+
+.square:hover .square-hover {
+  display: block;
+}
+
+.X {
+  color: red;
+}
+
+.O {
+  color: blue;
+}
